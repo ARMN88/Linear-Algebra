@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Linear Algebra Tests</title>
+</head>
+<body>
+  <div class="settings">
+    <div>
+    <label for="">Distance</label>
+    <input type="range" name="" max="300" min="1" value="100" id="size">
+    </div>
+    <div>
+    <label for="">Depth</label>
+    <input type="range" max="10" min="0" value="8" name="" step="0.01" id="fov">
+    </div>
+    <div>
+    <label for="">Shape</label>
+    <select name="" id="shape">
+      <option value="cube" selected>Cube</option>
+      <option value="rhombus">Rhombus</option>
+      <option value="tri2">Right Triangle</option>
+      <option value="tri1">Equilateral Triangle</option>
+    </select>
+    </div>
+    <div>
+    <label for="">Movement</label>
+    <select name="" id="movement">
+      <option value="spin" selected>Spin</option>
+      <option value="still">Still</option>
+      <option value="mouse">Mouse</option>
+    </select>
+    </div>
+  </div>
+  <canvas></canvas>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/eruda/2.4.1/eruda.min.js"></script>
+<script src="script.js"></script>
+</html>
