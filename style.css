@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.settings {
+  position: fixed;
+  color: white;
+  width: 95%;
+  height: 5vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
